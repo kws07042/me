@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+section {
+  padding: 0 50px;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #609067;
+  padding: 0 50px;
+}
+nav{
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.header h1 {
+  color: white;
+}
+
+h2 {
+  color: #609067;
+}
+
+.main-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 200px;
+}
+
+.about-me{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.about-me img{
+  border-radius: 10%;
+  border: 5px solid #609067;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-text{
+  margin-bottom: 30px;
+}
+
+.skills-img{
+  display: flex;
+  gap: 100px;
+
+}
+
+.skills-img img:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 150px;
+}
+.projects-text{
+  margin-bottom: 30px;
+}
+
+.projects a{
+  text-decoration: none;
+  color: #609067;
+  font-weight: bold;
+}
+
+.projects a:hover{
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 450px;
+}
+
+.contact-phone,
+.contact-email {
+  color: #609067;
+  font-weight: bold;
+}
+.contact-text{
+  margin-bottom: 30px;
+}
+
