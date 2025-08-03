@@ -6,8 +6,9 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>고건영 자기소개</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <script src="/js/app.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+
+
 </head>
 <body>
 <header class="header">
@@ -21,7 +22,7 @@
 
 </header>
 <section class="main-contents">
-<div class="main-content1" id="about">
+<section class="main-content1" id="about">
   <h2>About me</h2>
   <div class="about-me">
   <img src="/img/me.jpg" alt="고건영 증명사진" width="500" height="500">
@@ -30,14 +31,12 @@
   <p>현재 프론트엔드 개발자를 희망하고있습니다.</p>
     </div>
   </div>
-</div>
+</section>
 
-<div class="main-content2" id="skills">
+<section class="main-content2" id="skills">
   <h2>Skills</h2>
+  <p>저는 이런 스킬들을 활용해봤어요.</p>
   <div class="skills">
-    <div class="skills-text">
-    <p>저는 이런 스킬들을 활용해봤어요</p>
-    </div>
     <div class="skills-img">
     <img src="/img/html.png" alt="html"  width="100" height="100">
     <img src="/img/css.png" alt="css" width="100" height="100">
@@ -46,13 +45,11 @@
     <img src="/img/react.png" alt="react"width="100" height="100">
     </div>
   </div>
-</div>
-<div class="main-content3" id="projects">
+</section>
+<section class="main-content3" id="projects">
   <h2>GitHub</h2>
+  <p>저는 이런 프로젝트들을 해봤어요.</p>
   <div class="projects">
-    <div class="projects-text">
-    <p>저는 이런 프로젝트들을 해봤어요</p>
-    </div>
     <div class="projects-content">
     <a href="https://github.com/kws07042/Visionlife_FE" target="프로젝트">Visionlife_FE</a>
     <a href="https://github.com/kws07042/express-mysql-js-server" target="프로젝트">express-mysql-js-server</a>
@@ -60,23 +57,26 @@
     <a href="https://github.com/kws07042/llk_client" target="프로젝트">llk_client</a>
       </div>
   </div>
-</div>
-<div class="main-content4" id="contact">
+</section>
+<section class="main-content4" id="contact">
   <h2>Contact</h2>
+  <p>저의 연락처에요.</p>
   <div class="contact">
-    <div class="contact-text">
-    <p>저의 연락처에요</p>
-    </div>
   </div>
   <div class="contact-info">
     <div class="contact-phone">
-      <p>전화번호: 010-28809-9196</p>
+      <span>전화번호:</span>
+      <span id ='copyphone'>010-2880-9196</span>
+      <button id="phonebutton">copy</button>
     </div>
   <div class="contact-email">
-    <p>Email: kws07042@gmail.com</p>
+    <span>Email:</span>
+    <span id="copyemail">kws07042@gmail.com</span>
+    <button id="emailbutton">copy</button>
   </div>
 </div>
-</div>
 </section>
+</section>
+<script src="./js/app.js"></script>
 </body>
 </html>

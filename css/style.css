@@ -7,6 +7,10 @@ section {
 
 }
 
+p{
+  margin-bottom: 30px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -61,10 +65,6 @@ h2 {
   flex-direction: column;
 }
 
-.skills-text{
-  margin-bottom: 30px;
-}
-
 .skills-img{
   display: flex;
   gap: 100px;
@@ -87,10 +87,6 @@ h2 {
   text-decoration: none;
   gap: 150px;
 }
-.projects-text{
-  margin-bottom: 30px;
-}
-
 .projects a{
   text-decoration: none;
   color: #609067;
@@ -106,7 +102,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 450px;
+  gap: 380px;
 }
 
 .contact-phone,
@@ -114,7 +110,31 @@ h2 {
   color: #609067;
   font-weight: bold;
 }
-.contact-text{
-  margin-bottom: 30px;
+
+#emailbutton{
+  border-radius: 5px;
+  color: #609067;
+  border: 2px solid #609067;
+  background-color: white;
+
 }
 
+#emailbutton:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  font-weight: bold;
+}
+
+#phonebutton{
+  border-radius: 5px;
+  color: #609067;
+  border: 2px solid #609067;
+  background-color: white;
+
+}
+
+#phonebutton:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  font-weight: bold;
+}
