@@ -102,11 +102,39 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 450px;
+  gap: 380px;
 }
 
 .contact-phone,
 .contact-email {
   color: #609067;
+  font-weight: bold;
+}
+
+#emailbutton{
+  border-radius: 5px;
+  color: #609067;
+  border: 2px solid #609067;
+  background-color: white;
+
+}
+
+#emailbutton:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  font-weight: bold;
+}
+
+#phonebutton{
+  border-radius: 5px;
+  color: #609067;
+  border: 2px solid #609067;
+  background-color: white;
+
+}
+
+#phonebutton:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
   font-weight: bold;
 }
