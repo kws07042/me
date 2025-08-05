@@ -1,0 +1,67 @@
+마진 패딩 차이
+
+박스모델
+
+상품 카드 컴포넌트 작성
+
+최대너비(높이)와 너비(높이)차이
+
+position rerative absolute static fixed sticky 속성
+
+자기소개 페이지 아바타 컴포넌트내 알림 뱃지 추가
+
+인라인 및 블록 (인라인블록) 차이
+
+네비게이션바 컴포넌트 작성
+
+1 ~ 5번 w3c, mdn, tcp 스쿨에서만 보고 그대로 인용하지말고 너가 이해해서 정리 각 a4 1페이지 내 (코드블럭 x)
+
+
+
+1.마진 패딩 차이.
+
+마진 외부의 여백 조정 ex) 다른 요소와 간격 벌리기
+
+패딩 보더 안의 여백 조정 ex) 요소 크기 키우기
+
+
+
+2.박스모델
+
+안쪽부터 나열
+
+콘텐츠->패딩->보더->마진
+
+
+
+3.최대너비(높이)와 너비(높이)차이
+
+Width 너비설정
+
+Height 높이설정
+
+Max-width 가로폭을 줄이면 그 html요소도 동시에 줄어듬 width는 그런거 없다
+
+Max-height 최대 높이 보다 높으면 수직 스크롤바가 나옴
+
+
+
+
+
+4.position,rerative,absolute,static
+
+
+
+Position: 요소 배치 속성
+
+
+
+Relative: 기존 문서 흐름 따라가되 top,bottom,left,right 영향 O
+
+
+
+Absolute: 절대적 기존 문서흐름 따라가지 않음 조상인 relative,absolute 따라감
+
+
+
+Static: 정적 기존 문서 흐름 따라감 top,bottom,left,right 영향X 
